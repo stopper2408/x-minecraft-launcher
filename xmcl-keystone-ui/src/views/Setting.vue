@@ -362,7 +362,7 @@ function onScroll() {
   background: rgba(var(--v-theme-surface), 0.45) !important;
   backdrop-filter: blur(24px);
   border: 1px solid rgba(var(--v-theme-on-surface), 0.08);
-  border-radius: 18px !important;
+  border-radius: var(--card-radius) !important;
   box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.3) !important;
 }
 
@@ -379,7 +379,7 @@ function onScroll() {
   position: relative;
   padding-left: 16px !important;
   margin-bottom: 4px !important;
-  border-radius: 8px !important;
+  border-radius: var(--card-item-radius) !important;
   color: rgba(var(--v-theme-on-surface), 0.7) !important;
   font-weight: 500 !important;
   border: 1px solid transparent !important;
@@ -417,7 +417,7 @@ function onScroll() {
 
 .search-input :deep(.v-field) {
   background: rgba(0, 0, 0, 0.15) !important;
-  border-radius: 20px;
+  border-radius: var(--surface-radius);
   border: 1px solid rgba(var(--v-theme-on-surface), 0.08);
   transition: all 0.2s ease;
   font-size: 0.85rem;

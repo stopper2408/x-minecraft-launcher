@@ -86,8 +86,8 @@ const isVisible = computed(() => {
 .setting-card {
   background: rgba(var(--v-theme-surface), 0.5) !important;
   backdrop-filter: blur(12px);
-  border: 1px solid rgba(128, 128, 128, 0.15);
-  border-radius: 12px;
+  border: var(--card-subsection-border);
+  border-radius: var(--card-subsection-radius);
   transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   overflow: hidden;
   margin-bottom: 24px;

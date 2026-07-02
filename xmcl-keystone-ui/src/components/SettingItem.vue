@@ -82,7 +82,7 @@ if (card) {
   gap: 16px;
   min-height: 64px;
   padding: 12px 16px;
-  border-radius: 8px;
+  border-radius: var(--card-item-radius);
   transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
   margin: 4px 0;
   border-left: 3px solid transparent;
